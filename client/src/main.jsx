@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import "./index.css";
 import { createContext } from "react";
 
-export const server1 = "https://nodejs-todobackend-azj8.onrender.com/api/v1";
-export const server = "http://localhost:4000/api/v1";
+
+export const server = import.meta.env.VITE_SERVER_VARIABLE;
 
 export const Context = createContext({ isAuthenticated: false });
 

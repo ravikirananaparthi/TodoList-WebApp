@@ -11,7 +11,7 @@ export const app = express();
 config({
   path: "./data/config.env",
 });
-const frontendOrigin = ["http://localhost:5173",'https://devfinds-frontend.vercel.app'];
+const frontendOrigin = ["http://localhost:5173",'https://todo-list-web-app-mu.vercel.app'];
 //using middleware
 
 app.use(express.json());
