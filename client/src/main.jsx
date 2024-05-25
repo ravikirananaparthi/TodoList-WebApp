@@ -6,7 +6,7 @@ import { createContext } from "react";
 
 
 export const server = import.meta.env.VITE_SERVER_VARIABLE;
-
+console.log(server);
 export const Context = createContext({ isAuthenticated: false });
 
 const Appwraper = () => {

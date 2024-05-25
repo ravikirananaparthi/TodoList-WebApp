@@ -138,7 +138,7 @@ function Home() {
         </div>
         <section className="mt-8">
           <div className="flex flex-wrap -mx-4">
-            {tasks.map((task) => (
+            {tasks?.map((task) => (
               <TodoItem
                 key={task._id}
                 id={task._id}
