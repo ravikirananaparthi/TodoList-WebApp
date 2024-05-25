@@ -11,14 +11,14 @@ export const app = express();
 config({
   path: "./data/config.env",
 });
-const frontendOrigin = ["http://localhost:5173",'https://todo-list-web-app-mu.vercel.app'];
+const frontendOrigin = ["http://localhost:5173",'https://todo-list-web-app-mu.vercel.app/'];
 //using middleware
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: '*',
+    origin: frontendOrigin,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
