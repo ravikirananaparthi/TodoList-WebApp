@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 
 //creating schema
+
+
+
 const schema = new mongoose.Schema({
   title: {
     type: String,

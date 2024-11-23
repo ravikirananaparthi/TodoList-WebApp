@@ -6,6 +6,8 @@ Todolist-WebApp is a task management application that helps users organize and m
 
 ## Features
 
+
+
 - **Task Management**: Create, update, and delete tasks with ease.
 - **User Authentication**: Secure user login and registration with JWT (JSON Web Token).
 - **Responsive Design**: Optimized for both mobile and desktop views.
